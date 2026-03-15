@@ -2,10 +2,12 @@ package com.example.icarus_music_disc.block;
 
 import com.example.icarus_music_disc.Icarus_music_disc;
 import com.example.icarus_music_disc.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
@@ -21,14 +23,16 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Icarus_music_disc.MODID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).pushReaction(PushReaction.BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.BLOCK).sound(SoundType.AMETHYST)));
 
 
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).pushReaction(PushReaction.DESTROY)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).pushReaction(PushReaction.PUSH_ONLY).sound(SoundType.AMETHYST)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                .strength(2f)//the stone have 1.5f
+                    .requiresCorrectToolForDrops(), UniformInt.of(3,6)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

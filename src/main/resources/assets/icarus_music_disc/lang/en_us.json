@@ -4,5 +4,6 @@
   "creativemodetab.icarus_music_disc_tab": "Icarus Music Disc",
   "block.icarus_music_disc.sapphire_block": "Sapphire Block",
   "block.icarus_music_disc.raw_sapphire_block": "Raw Sapphire Block",
-  "block.icarus_music_disc.sapphire_ore": "Sapphire Ore"
+  "block.icarus_music_disc.sapphire_ore": "Sapphire Ore",
+  "item.icarus_music_disc.metal_detector": "Metal Detector"
 }
