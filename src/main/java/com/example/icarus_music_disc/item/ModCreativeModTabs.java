@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativemodetab.icarus_music_disc_tab"))
                     .displayItems((pParametres, pOutput) -> {
+                        //Items
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
@@ -34,10 +35,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
-
-                        //vanilla
-
-                        pOutput.accept(Items.DIAMOND);
                     })
                     .build());
 

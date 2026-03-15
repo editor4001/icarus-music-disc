@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "icarus_music_disc:sapphire_ore"
+      },
+      {
+        "item": "icarus_music_disc:raw_sapphire_block"
+      }
+    ]
+  ],
+  "result": {
+    "item": "icarus_music_disc:raw_sapphire",
+    "count": 4
+  }
+}
