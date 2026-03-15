@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "minecraft:misc",
+  "ingredient": {
+    "item": "icarus_music_disc:raw_sapphire"
+  },
+  "result": {
+    "item": "icarus_music_disc:sapphire",
+    "count": 1
+  },
+  "experience": 8.0,
+  "cookingtime": 100
+}
