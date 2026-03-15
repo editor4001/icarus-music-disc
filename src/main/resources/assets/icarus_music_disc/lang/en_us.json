@@ -6,9 +6,9 @@
   "block.icarus_music_disc.raw_sapphire_block": "Raw Sapphire Block",
   "block.icarus_music_disc.sapphire_ore": "Sapphire Ore",
   "item.icarus_music_disc.metal_detector": "Metal Detector",
-  "block.icarus_music_disc.sound_block": "Sound Block",
+  "block.icarus_music_disc.buzzer_block": "Buzzer",
   "item.icarus_music_disc.strawberry": "Strawberry",
   "item.icarus_music_disc.burn_orb": "Burn Orb",
-  "tooltip.icarus_music_disc.sound_block": "Right-click to play a note.",
+  "tooltip.icarus_music_disc.buzzer_block": "Right-click to play a note.",
   "tooltip.icarus_music_disc.metal_detector": "Right-click to the ground to find the nearest ores in the Y colomn."
 }

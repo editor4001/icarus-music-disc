@@ -18,8 +18,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SoundBlock extends Block {
-    public SoundBlock(Properties properties) {
+public class BuzzerBlock extends Block {
+    public BuzzerBlock(Properties properties) {
         super(properties);
     }
 
@@ -34,7 +34,7 @@ public class SoundBlock extends Block {
     @Override
     public void appendHoverText(ItemStack p_49816_, @Nullable BlockGetter p_49817_, List<Component> tooltipComponent, TooltipFlag p_49819_) {
 
-        tooltipComponent.add(Component.translatable("tooltip.icarus_music_disc.sound_block"));
+        tooltipComponent.add(Component.translatable("tooltip.icarus_music_disc.buzzer_block"));
 
         super.appendHoverText(p_49816_, p_49817_, tooltipComponent, p_49819_);
     }

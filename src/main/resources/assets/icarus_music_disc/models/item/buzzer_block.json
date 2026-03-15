@@ -1,5 +1,5 @@
 {
-  "parent": "icarus_music_disc:block/sound_block",
+  "parent": "icarus_music_disc:block/buzzer_block",
   "display": {
     "thirdperson": {
       "rotation": [10, -45, 170],
