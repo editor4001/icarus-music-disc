@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "icarus_music_disc:block/sound_block"
+    }
+  }
+}

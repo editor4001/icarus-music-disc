@@ -1,6 +1,7 @@
 package com.example.icarus_music_disc.block;
 
 import com.example.icarus_music_disc.Icarus_music_disc;
+import com.example.icarus_music_disc.block.custom.SoundBlock;
 import com.example.icarus_music_disc.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -28,6 +29,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).pushReaction(PushReaction.NORMAL)));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

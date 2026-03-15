@@ -2,6 +2,7 @@ package com.example.icarus_music_disc.item;
 
 import com.example.icarus_music_disc.Icarus_music_disc;
 import com.example.icarus_music_disc.block.ModBlocks;
+import net.minecraft.client.renderer.block.ModelBlockRenderer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,6 +31,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
                         //vanilla
 
