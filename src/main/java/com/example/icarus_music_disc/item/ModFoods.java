@@ -10,6 +10,6 @@ public class ModFoods {
             .alwaysEat()
             .fast()
             .saturationMod(0.5f)
-            .effect(() -> new MobEffectInstance(MobEffects.LEVITATION, 200, 1),1)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 800, 1),1)
             .build();
 }

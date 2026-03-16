@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "icarus_music_disc:sound_block"
+      "item": "icarus_music_disc:buzzer_block"
     }
   ],
   "result": {
