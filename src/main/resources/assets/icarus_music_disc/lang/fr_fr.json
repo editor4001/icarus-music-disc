@@ -10,6 +10,7 @@
   "item.icarus_music_disc.strawberry": "Fraise",
   "item.icarus_music_disc.burn_orb": "Orbe de feu",
   "tooltip.icarus_music_disc.buzzer_block": "Clic droit pour jouer une note.",
+  "tooltip.icarus_music_disc.strawberry": "Miam! Sa donne régéneration",
   "tooltip.icarus_music_disc.metal_detector": "Clic droit sur le sol pour trouver le minerai le plus proche dans la colonne Y.",
   "block.icarus_music_disc.buzzer_block": "Buzzer Block"
 }
