@@ -10,6 +10,8 @@
   "item.icarus_music_disc.strawberry": "Strawberry",
   "item.icarus_music_disc.burn_orb": "Burn Orb",
   "tooltip.icarus_music_disc.strawberry": "Miam! thats give regeneration",
+  "item.icarus_music_disc.petrifier": "Petrifier",
+  "item.icarus_music_disc.inactive_petrifier": "Inactive Petrifier",
   "tooltip.icarus_music_disc.buzzer_block": "Right-click to play a note.",
   "tooltip.icarus_music_disc.metal_detector": "Right-click to the ground to find the nearest ores in the Y colomn."
 }

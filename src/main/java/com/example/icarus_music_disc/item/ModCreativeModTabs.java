@@ -29,6 +29,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.BURN_ORB.get());
+                        pOutput.accept(ModItems.PETRIFIER.get());
 
                         //Blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
