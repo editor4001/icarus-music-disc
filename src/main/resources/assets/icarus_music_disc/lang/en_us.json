@@ -18,6 +18,7 @@
   "block.icarus_music_disc.sapphire_fence_gate": "Sapphire fence Gate",
   "block.icarus_music_disc.sapphire_wall": "Sapphire Wall",
   "block.icarus_music_disc.sapphire_door": "Sapphire Door",
+  "item.icarus_music_disc.sapphire_staff": "Sapphire_staff",
   "block.icarus_music_disc.sapphire_trapdoor": "Sapphire Trapdoor",
   "tooltip.icarus_music_disc.buzzer_block": "Right-click to play a note.",
   "tooltip.icarus_music_disc.metal_detector": "Right-click to the ground to find the nearest ores in the Y colomn."

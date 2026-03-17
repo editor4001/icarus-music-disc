@@ -18,6 +18,7 @@
   "block.icarus_music_disc.sapphire_fence_gate": "Portillon en saphir",
   "block.icarus_music_disc.sapphire_wall": "Mur en saphir",
   "block.icarus_music_disc.sapphire_door": "Porte en saphir",
+  "item.icarus_music_disc.sapphire_staff": "Ceptre de saphir",
   "block.icarus_music_disc.sapphire_trapdoor": "Trappe en saphir",
   "tooltip.icarus_music_disc.buzzer_block": "Clic droit pour jouer une note.",
   "tooltip.icarus_music_disc.metal_detector": "Clic droit sur le sol pour trouver les minerais les plus proches dans la colonne Y."
