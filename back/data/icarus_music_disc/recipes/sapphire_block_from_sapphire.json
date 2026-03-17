@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+    "pattern": [
+      "SSS",
+      "SSS",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "icarus_music_disc:sapphire"
+      }
+    },
+    "result": {
+        "item": "icarus_music_disc:sapphire_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "icarus_music_disc:buzzer_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:note_block",
+    "count": 1
+  }
+}

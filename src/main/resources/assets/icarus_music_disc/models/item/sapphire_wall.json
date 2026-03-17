@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "icarus_music_disc:block/sapphire_block"
+  }
+}

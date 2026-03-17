@@ -1,0 +1,8 @@
+// 1.20.1	2026-03-17T17:44:12.4468166	Tags for minecraft:block mod id icarus_music_disc
+c9a0b7e8bd4956ad9c2c0e8aaae8582f1ae92c61 data/icarus_music_disc/tags/blocks/metal_detector_valuables.json
+2c6c2e7175bbc1a3fd6a511f4228e0b5b3098f3c data/minecraft/tags/blocks/fences.json
+e0970296e014b5695735552f0ebe031e09a47150 data/minecraft/tags/blocks/fence_gates.json
+c1d56ccd08fabc6a25734c262b1e6c2e8c6cb20d data/minecraft/tags/blocks/mineable/pickaxe.json
+0eae6d857fe2ba08a702bd9fc11cfa96087e1ba4 data/minecraft/tags/blocks/needs_diamond_tool.json
+f5dd94de465bca3f50b0fd4eb355182da0682523 data/minecraft/tags/blocks/needs_iron_tool.json
+d326b42ab40d8cd172199760db50563a67d74118 data/minecraft/tags/blocks/walls.json

@@ -9,8 +9,16 @@
   "block.icarus_music_disc.buzzer_block": "Buzzer",
   "item.icarus_music_disc.strawberry": "Fraise",
   "item.icarus_music_disc.burn_orb": "Orbe de feu",
+  "tooltip.icarus_music_disc.strawberry": "Miam ! Donne régénération",
+  "block.icarus_music_disc.sapphire_stairs": "Escaliers en saphir",
+  "block.icarus_music_disc.sapphire_slab": "Dalle en saphir",
+  "block.icarus_music_disc.sapphire_button": "Bouton en saphir",
+  "block.icarus_music_disc.sapphire_pressure_plate": "Plaque de pression en saphir",
+  "block.icarus_music_disc.sapphire_fence": "Barrière en saphir",
+  "block.icarus_music_disc.sapphire_fence_gate": "Portillon en saphir",
+  "block.icarus_music_disc.sapphire_wall": "Mur en saphir",
+  "block.icarus_music_disc.sapphire_door": "Porte en saphir",
+  "block.icarus_music_disc.sapphire_trapdoor": "Trappe en saphir",
   "tooltip.icarus_music_disc.buzzer_block": "Clic droit pour jouer une note.",
-  "tooltip.icarus_music_disc.strawberry": "Miam! Sa donne régéneration",
-  "tooltip.icarus_music_disc.metal_detector": "Clic droit sur le sol pour trouver le minerai le plus proche dans la colonne Y.",
-  "block.icarus_music_disc.buzzer_block": "Buzzer Block"
+  "tooltip.icarus_music_disc.metal_detector": "Clic droit sur le sol pour trouver les minerais les plus proches dans la colonne Y."
 }

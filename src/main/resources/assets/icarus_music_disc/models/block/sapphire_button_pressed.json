@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "icarus_music_disc:block/sapphire_block"
+  }
+}

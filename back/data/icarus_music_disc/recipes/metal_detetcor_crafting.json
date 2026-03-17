@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "  b",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:bone"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "icarus_music_disc:metal_detector",
+    "count": 1
+  }
+}
