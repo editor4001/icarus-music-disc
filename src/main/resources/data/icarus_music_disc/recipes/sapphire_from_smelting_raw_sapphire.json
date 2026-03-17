@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 25.0,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "icarus_music_disc:raw_sapphire"
+  },
+  "result": "icarus_music_disc:sapphire"
+}

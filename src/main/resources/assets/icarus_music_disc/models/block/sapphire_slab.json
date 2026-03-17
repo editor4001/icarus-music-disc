@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "icarus_music_disc:block/sapphire_block",
+    "side": "icarus_music_disc:block/sapphire_block",
+    "top": "icarus_music_disc:block/sapphire_block"
+  }
+}
