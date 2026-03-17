@@ -2,7 +2,6 @@ package com.example.icarus_music_disc.item;
 
 import com.example.icarus_music_disc.item.custom.FuelItem;
 import com.example.icarus_music_disc.item.custom.MetalDetectorItem;
-import com.example.icarus_music_disc.item.custom.PetrifierItem;
 import com.example.icarus_music_disc.item.custom.StrawberryItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,8 +27,6 @@ public class ModItems {
     public static final RegistryObject<Item> BURN_ORB = ITEMS.register("burn_orb",
             () -> new FuelItem(new Item.Properties(), 400));
 
-    public static final RegistryObject<Item> PETRIFIER = ITEMS.register("petrifier",
-            () -> new PetrifierItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
