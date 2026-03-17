@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-    "textures": {
-        "layer0": "icarus_music_disc:item/metal_detector"
-    }
-}

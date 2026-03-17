@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "icarus_music_disc:block/buzzer_block"
-  }
-}

@@ -31,6 +31,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
         buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
         wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
+        evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
+        evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
+        evenSimplerBlockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
 
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
     }
